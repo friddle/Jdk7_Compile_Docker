@@ -1,0 +1,9 @@
+ERROR: You do not have access to valid Cups header files. 
+       Please check your access to 
+           /usr/include/cups/cups.h 
+       and/or check your value of ALT_CUPS_HEADERS_PATH, 
+       CUPS is frequently pre-installed on many systems, 
+       or may be downloaded from http://www.cups.org 
+ 
+Exiting because of the above error(s). 
+ 

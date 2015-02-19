@@ -1,0 +1,6 @@
+make[2]: Entering directory `/home/friddle/Documents/jdk7u40/jdk/make/tools/freetypecheck'
+/home/friddle/Documents/jdk7u40/build/linux-amd64/btbins/freetype_versioncheck
+Required version of freetype: 2.3.0
+Detected freetype headers: 2.5.2
+Detected freetype library: 2.5.2
+make[2]: Leaving directory `/home/friddle/Documents/jdk7u40/jdk/make/tools/freetypecheck'

@@ -1,0 +1,16 @@
+这个是为了编译OpenJdk的Docker镜像文件。     
+本身为了让编译通过JDK修改了源码的两个文件。     
+具体用法是 `docker build -t jdk_compile .'。        
+
+
+1.遇到错误Error: time is more than 10 years from present: 1104530400000    
+修改文件：jdk/src/share/classes/java/util/CurrencyData.properties    
+`TR=TRL;2004-12-31-22-00-00;TRY` 修改成  `TR=TRL;2010-12-31-22-00-00;TRY`     
+
+2.遇到错误Error:./gamma: relocation error: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64/libjava.so: symbol JVM_FindClassFromCaller, version SUNWprivate_1.1 not defined in file libjvm.so with link time reference   
+修改文件：hotspot/make/linux/Makefile   
+去掉文件中所有的test_gamma即可     
+
+
+
+

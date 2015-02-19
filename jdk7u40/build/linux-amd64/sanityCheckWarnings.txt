@@ -1,0 +1,5 @@
+WARNING: This build does not include running javadoc.
+ 
+WARNING: LANG has been set to en_US.UTF-8, this can cause build failures. 
+         Try setting LANG to 'C'. 
+ 
